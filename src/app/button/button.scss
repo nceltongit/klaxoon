@@ -1,0 +1,16 @@
+.button {
+  white-space: nowrap;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0 1rem;
+  background-color: $primaryColor;
+  border-radius: 4px;
+  height: 3rem;
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+}
+
+.button--secondary {
+  background-color: $secondaryColor;
+}

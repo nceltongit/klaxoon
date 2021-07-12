@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-items: center;
+  height: $headerHeight;
+  width: 100%;
+  position: fixed;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
+  top: 0;
+  z-index: 10;
+
+  &__logo {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+}

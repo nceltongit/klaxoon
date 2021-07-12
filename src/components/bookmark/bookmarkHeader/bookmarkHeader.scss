@@ -1,0 +1,17 @@
+.bookmark-header {
+  width: 100%;
+  margin-bottom: 10px;
+
+  &__title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: $primaryColor;
+  }
+
+  &__add-button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+}

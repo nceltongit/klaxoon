@@ -1,0 +1,25 @@
+.bookmark {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem + $headerHeight;
+
+  &__add-button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+
+  &__header {
+    width: 100%;
+    margin-bottom: 10px;
+
+    &__title {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      color: $primaryColor;
+    }
+  }
+}

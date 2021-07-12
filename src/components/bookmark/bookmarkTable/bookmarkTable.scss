@@ -1,0 +1,43 @@
+.bookmark-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: 1px solid $greyLine;
+  position: relative;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+
+  th, td {
+    padding: 10px;
+    vertical-align: middle;
+    text-align: left;
+  }
+
+  &__row {
+    font-size: 14px;
+
+    &:nth-child(even) {
+      background-color: $lightGreyBackground;
+    }
+  }
+
+  &__cell{
+    height: 60px;
+  }
+
+  &__cell:last-child{
+    text-align: right;
+
+    .button:first-child {
+      margin-right: 5px;
+    }
+  }
+
+  &__header {
+    border-bottom: 1px solid $primaryColor;
+    top: $headerHeight;
+    background-color: white;
+    color: $primaryColor;
+    height: 60px;
+  }
+}
+
+

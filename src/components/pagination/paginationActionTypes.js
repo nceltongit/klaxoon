@@ -1,0 +1,2 @@
+export const INIT_PAGINATION = 'INIT_PAGINATION';
+export const CHANGE_PAGE = 'CHANGE_PAGE';
